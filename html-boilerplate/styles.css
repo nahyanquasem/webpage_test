@@ -1,28 +1,38 @@
 
 
 h1{
-    color:red;
-    background-color: black;
-}
-
-p{
-    color: yellow;
+    color: blue;
+    background-color: yellow;
 }
 
 img{
-    width: 500px;
+    width: auto;
     height: auto;
 }
 
 body{
-    background-color: rgba(0, 255, 255, 1);
-    background-image: url("./images/dog.jpg");
+    background-color: rgba(0, 255, 255, .8);
     background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.para_graph,.intro-text{
+
+    color: blue;
+
 }
 
 .intro-text{
 
-    color: blue;
+    font-weight: 900;
 
+}
+
+ul, ol{
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
 }
 
