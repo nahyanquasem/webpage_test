@@ -7,8 +7,6 @@ h1{
 
 p{
     color: yellow;
-    background-color: black;
-
 }
 
 img{
@@ -20,5 +18,11 @@ body{
     background-color: rgba(0, 255, 255, 1);
     background-image: url("./images/dog.jpg");
     background-repeat: no-repeat;
+}
+
+.intro-text{
+
+    color: blue;
+
 }
 
