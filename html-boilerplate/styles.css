@@ -1,6 +1,96 @@
 
 
-h1{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(204, 196, 196);
+}
+
+/* 
+a:link {
+    color: red;
+  }
+  
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+  
+
+a:active {
+    color: blue;
+} */
+
+/* #parent {
+    color: red;
+  }
+  
+  .child {
+    color: blue;
+  } */
+
+
+/* #subsection {
+    background-color: yellow;
+    color: blue;
+  }
+  
+
+  .main #subsection {
+   color: red;
+  } */
+
+
+
+
+
+
+
+
+
+/* rule 1
+#subsection {
+    color: blue;
+  }
+   */
+  /* rule 2
+  .main .list {
+    color: red;
+  } */
+
+
+  /* rule 2
+  .main .list {
+    color: red;
+  }
+
+.subsection {
+    color: blue;
+  } */
+  
+
+
+/* h1{
     color: blue;
     background-color: yellow;
 }
@@ -34,5 +124,5 @@ ul, ol{
     padding-left: 0;
     text-align: center;
     list-style-position: inside;
-}
+} */
 
