@@ -1,8 +1,101 @@
-*,
+
+.tool-bar{
+  max-width: 600px;
+  margin: 0 auto;
+
+  text-align: center;
+  
+
+}
+
+div {
+  padding: 10px;
+  color: #EEEEEE;
+  /* display: inline-block; */
+}
+
+.introduction {
+  background-color: #548CA8;
+}
+
+.main-content {
+  background-color: #476072;
+}
+
+.contact-us {
+  background-color: #334257;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* *,
 *::before,
 *::after{
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
+
+div{
+  border: 2px solid purple;
+}
+
+.container{
+
+  display: inline;
+
+  position: absolute;
+
+  width: 50px;
+  
+  top:10px;
+  right:0px;
+  bottom:10px;
+  left:0px;
+  
+} */
+  
+  
+  
+  /* body{
+    background-color: darkgrey;
+    }
+    
+
+
+span,
+li{
+  border: 2px solid blue;
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul{
+  border: 2px solid green;
+  display: block;
+  list-style: none;
+  padding: 0px;
+}
+
+
+.inline{
+  display: inline;
+} */
+
+
+/* *,
+
 
 
 *{
@@ -35,7 +128,7 @@
   width: 300px;
   margin: 0 auto;
 
-}
+} */
 
 /* .box{
 
