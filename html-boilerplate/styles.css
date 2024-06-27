@@ -1,251 +1,119 @@
-
-.tool-bar{
-  max-width: 600px;
-  margin: 0 auto;
-
-  text-align: center;
-  
-
-}
-
-div {
-  padding: 10px;
-  color: #EEEEEE;
-  /* display: inline-block; */
-}
-
-.introduction {
-  background-color: #548CA8;
-}
-
-.main-content {
-  background-color: #476072;
-}
-
-.contact-us {
-  background-color: #334257;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* *,
+*,
 *::before,
 *::after{
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+
+  /* padding: 1px;
+  margin: 1px;
+  border: 1px solid blueviolet;
+  box-sizing: border-box; */
 }
 
-div{
-  border: 2px solid purple;
+.menu-container{
+
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
-.container{
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
 
-  display: inline;
-
-  position: absolute;
-
-  width: 50px;
-  
-  top:10px;
-  right:0px;
-  bottom:10px;
-  left:0px;
-  
-} */
-  
-  
-  
-  /* body{
-    background-color: darkgrey;
-    }
-    
-
-
-span,
-li{
-  border: 2px solid blue;
-  display: inline-flex;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  margin: 10px;
 }
 
-ul{
-  border: 2px solid green;
-  display: block;
-  list-style: none;
-  padding: 0px;
+.links{
+  display: flex;
+  justify-content: flex-end;
+
 }
 
-
-.inline{
-  display: inline;
-} */
-
-
-/* *,
-
-
-
-*{
-  margin: 0;
-  padding: 0;
-  font-size: 40px;
-  text-align: center;
+.login{
+  margin-left: 20px;
 }
 
-.box-one{
+.header-container{
 
-  background-color: #EB5757;
-  border: 10px solid #9B51E0;
-  
-  padding: 10px;
-  height: 100px;
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-grid-container{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.photo-grid{
+  width: 900px;
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.photo-grid-item{
+  display: flex;
+  align-items:stretch;
+  justify-content: center;
   width: 300px;
-  margin: 0 auto;
+  height: 300px;
+}
+
+.first-item{
+
+  order: 1;
 
 }
 
+.last-item{
+  order: -1;
+}
 
-.box-two{
+.social,
+.subscribe{
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
 
-  background-color: #2D9CDB;
-  border: 10px solid #27AE60;
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
 
-  padding: 10px;
-  height: 100px;
+.footer-item{
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three{
+  background-color: #5995DA;
+  flex: initial;
   width: 300px;
-  margin: 0 auto;
-
-} */
-
-/* .box{
-
-  font-size: 2rem;
-  background-color: pink;
-
-  width: 300px;
-  height: 100px;
-
-
-  padding: 16px;
-  border: 5px dashed black;
-
-  margin: 0px;
-  
-} */
-/* 
-a:link {
-    color: red;
-  }
-  
-
-a:visited {
-    color: green;
 }
 
-a:hover {
-    color: hotpink;
+.signup{
+  margin-left: auto;
 }
-  
-
-a:active {
-    color: blue;
-} */
-
-/* #parent {
-    color: red;
-  }
-  
-  .child {
-    color: blue;
-  } */
-
-
-/* #subsection {
-    background-color: yellow;
-    color: blue;
-  }
-  
-
-  .main #subsection {
-   color: red;
-  } */
-
-
-
-
-
-
-
-
-
-/* rule 1
-#subsection {
-    color: blue;
-  }
-   */
-  /* rule 2
-  .main .list {
-    color: red;
-  } */
-
-
-  /* rule 2
-  .main .list {
-    color: red;
-  }
-
-.subsection {
-    color: blue;
-  } */
-  
-
-
-/* h1{
-    color: blue;
-    background-color: yellow;
-}
-
-img{
-    width: auto;
-    height: auto;
-}
-
-body{
-    background-color: rgba(0, 255, 255, .8);
-    background-repeat: no-repeat;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-}
-
-.para_graph,.intro-text{
-
-    color: blue;
-
-}
-
-.intro-text{
-
-    font-weight: 900;
-
-}
-
-ul, ol{
-    padding-left: 0;
-    text-align: center;
-    list-style-position: inside;
-} */
-
