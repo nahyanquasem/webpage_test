@@ -79,6 +79,8 @@ body{
 
 .flex-item-4{
 
+  order: -1;
+
 }
 
 .flex-item-5{
