@@ -29,7 +29,6 @@ body{
   display: flex;
   justify-content:space-between;
 
-
 }
 
 .left-sidebar,
@@ -46,12 +45,19 @@ body{
 .mid-content{
   display: flex;
   border: 3px solid orange;
-  flex-direction: row-reverse;
 
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+
+
   flex: 1;
 }
+
+.mid-top-content,
+.mid-bottom-content{
+  display: flex;
+  flex: 1;
+}
+
 
 
 .flex-item{
@@ -68,28 +74,32 @@ body{
 
 
 .flex-item-1{
+  flex: 1;
   
 
 }
 
 .flex-item-2{
+  flex: 1;
 
 }
 
 
 .flex-item-3{
+  flex: 1;
 
 }
 
 
 .flex-item-4{
+  flex: 1;
 
   order: -1;
 
 }
 
 .flex-item-5{
-  /* align-self: center; */
+  flex: 1;
   
 
 }
@@ -97,7 +107,18 @@ body{
 
 .flex-item-6{
 
-  /* align-self: center; */
+  flex: 1
 
+}
+
+.flex-item-7{
+
+  flex: 1
+
+}
+
+.flex-item-8{
+
+  flex: 1
 
 }
