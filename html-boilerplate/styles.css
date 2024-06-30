@@ -108,6 +108,7 @@ body{
 
 .flex-item-5{
 
+  align-self: flex-end;
   
 
 }
@@ -120,6 +121,8 @@ body{
 }
 
 .flex-item-7{
+
+  align-self: flex-end;
 
 
 
@@ -138,6 +141,8 @@ body{
 }
 
 .flex-item-10{
+
+  align-self: flex-start;
 
 
 
