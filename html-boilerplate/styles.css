@@ -47,17 +47,23 @@ body{
   border: 3px solid orange;
 
   flex-wrap: wrap;
-
-
-  flex: 1;
 }
 
 .mid-top-content,
 .mid-bottom-content{
   display: flex;
-  flex: 1;
+  flex: auto;
+
+  align-items: center;
 }
 
+/* .mid-top-content{
+  align-items: flex-end;
+}
+
+.mid-bottom-content{
+  align-items: flex-start;
+} */
 
 
 .flex-item{
@@ -68,38 +74,40 @@ body{
   background-color: plum;
 
   text-align:center;
+
+  flex: auto;
   
 }
 
 
 
 .flex-item-1{
-  flex: 1;
+
   
 
 }
 
 .flex-item-2{
-  flex: 1;
+
 
 }
 
 
 .flex-item-3{
-  flex: 1;
+
 
 }
 
 
 .flex-item-4{
-  flex: 1;
+
 
   order: -1;
 
 }
 
 .flex-item-5{
-  flex: 1;
+
   
 
 }
@@ -107,18 +115,42 @@ body{
 
 .flex-item-6{
 
-  flex: 1
+ 
 
 }
 
 .flex-item-7{
 
-  flex: 1
+
 
 }
 
 .flex-item-8{
 
-  flex: 1
+
+
+}
+
+.flex-item-9{
+
+
+
+}
+
+.flex-item-10{
+
+
+
+}
+
+.flex-item-11{
+
+
+
+}
+
+.flex-item-12{
+
+
 
 }
