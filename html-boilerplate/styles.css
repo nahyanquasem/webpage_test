@@ -57,13 +57,13 @@ body{
   align-items: center;
 }
 
-/* .mid-top-content{
-  align-items: flex-end;
+.mid-top-content{
+  align-items: flex-start;
 }
 
 .mid-bottom-content{
-  align-items: flex-start;
-} */
+  align-items: flex-end;
+}
 
 
 .flex-item{
